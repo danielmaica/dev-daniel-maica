@@ -14,6 +14,16 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $third-color;
+  border-radius: 20px; 
 }
 
 a {

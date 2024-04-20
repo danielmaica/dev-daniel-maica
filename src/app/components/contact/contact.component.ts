@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
-
+email: string = 'danielmaica.dev@gmail.com'
+phone: string = '(51) 99205-8011'
 }

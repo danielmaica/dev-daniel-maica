@@ -1,0 +1,25 @@
+@import '../../../color-variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    color: $fourth-color;
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
