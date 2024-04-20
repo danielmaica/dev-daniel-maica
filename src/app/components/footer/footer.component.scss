@@ -1,0 +1,27 @@
+@import "../../../color-variables.scss";
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+
+  span {
+    text-align: center;
+    width: 50%;
+  }
+
+  .social-media {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width:480px) {}
+
+@media screen and (min-width:600px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {}

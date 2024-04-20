@@ -1,0 +1,36 @@
+@import "../../../color-variables.scss";
+
+* {
+  font-size: 1.2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+
+    a {
+      color: $first-color;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color: $fourth-color;
+    }
+  }
+}
+
+@media screen and (min-width:480px) {}
+
+@media screen and (min-width:600px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {}

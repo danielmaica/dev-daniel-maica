@@ -1,0 +1,58 @@
+@import '../../../../color-variables.scss';
+
+.card {
+  width: 19rem;
+  height: 25.4rem;
+  background-image: linear-gradient(144deg,$fourth-color, $fifth-color 90%);
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card h3 {
+  background: transparent;
+  font-weight: 800;
+  color: $second-color;
+  text-align: center;
+  display: block;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+
+.card .job {
+  background: transparent;
+  font-weight: 600;
+  color: $second-color;
+  display: block;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card .img {
+  width: 7rem;
+  height: 7rem;
+  background: $second-color;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.card button {
+  padding: 0.8rem 2.5rem;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: $second-color;
+  color: #111111;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.card button:hover {
+  background: $first-color;
+  color: $fifth-color;
+}
