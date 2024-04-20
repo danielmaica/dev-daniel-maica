@@ -4,6 +4,8 @@ import { FooterComponent } from '../footer/footer.component';
 import { NgOptimizedImage } from '@angular/common';
 import { AboutComponent } from '../about/about.component';
 import { SkillsComponent } from '../skills/skills.component';
+import { PortfolioComponent } from '../portfolio/portfolio.component';
+import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +15,8 @@ import { SkillsComponent } from '../skills/skills.component';
     HeaderComponent,
     AboutComponent,
     SkillsComponent,
+    PortfolioComponent,
+    ContactComponent,
     FooterComponent
   ],
   templateUrl: './home.component.html',
