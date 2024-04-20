@@ -11,5 +11,4 @@ import { SkillCardComponent } from './skill-card/skill-card.component';
   styleUrl: './skills.component.scss'
 })
 export class SkillsComponent {
-
 }

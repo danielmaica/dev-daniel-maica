@@ -11,8 +11,8 @@ import { Component, Input } from '@angular/core';
   styleUrl: './skill-card.component.scss'
 })
 export class SkillCardComponent {
-  @Input ("title") title: string = "titulo";
+  @Input ("skill") skill: string = "titulo";
   @Input ("description") description: string = "descrição";
-  @Input ("project-type") projectType: string = "tipo";
+  @Input ("icon") icon: string = "";
 
 }

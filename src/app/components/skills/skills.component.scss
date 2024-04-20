@@ -11,13 +11,29 @@
   padding: 2rem 2rem;
   gap: 1rem;
 
-  h2{
+  h2 {
     color: $fourth-color;
   }
 
   .skill-cards {
     display: flex;
-    flex-direction: column;
     gap: 1rem;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+    app-skill-card {
+      scroll-snap-align: start;
+    }
+  }
+
+  .skill-cards::-webkit-scrollbar {
+    height: 0.5rem;
+  }
+
+  .skill-cards::-webkit-scrollbar-thumb {
+    border-radius: 3rem;
+    width: 0.3rem;
+    background-color: $fifth-color;
   }
 }
