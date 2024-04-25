@@ -1,7 +1,7 @@
 @import "../../../color-variables.scss";
 
 * {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 header {
@@ -19,6 +19,7 @@ header {
       color: $first-color;
       font-weight: bold;
       transition: all 0.3s ease-in-out;
+      cursor: pointer;
     }
 
     a:hover {
@@ -27,10 +28,14 @@ header {
   }
 }
 
-@media screen and (min-width:480px) {}
+@media screen and (min-width: 480px) {
+}
 
-@media screen and (min-width:600px) {}
+@media screen and (min-width: 600px) {
+}
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width: 768px) {
+}
 
-@media screen and (min-width:992px) {}
+@media screen and (min-width: 992px) {
+}
