@@ -1,3 +1,2 @@
 # Meu Site
-
-<a href="https://devdanielmaica.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" target="_blank"></a>
+![portfolio](https://github.com/user-attachments/assets/7bbfdc34-16b9-407a-b892-f0c310dda7ff)
